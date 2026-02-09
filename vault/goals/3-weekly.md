@@ -1,15 +1,15 @@
 ---
 type: weekly
-week: YYYY-WWW
-updated: YYYY-MM-DD
+week: 2026-W06
+updated: 2026-02-09
 ---
 
 # Weekly Focus
 
 ## ONE Big Thing
 
-> **If I accomplish nothing else, I will:**
-> [Single most important outcome for this week]
+> **Если я больше ничего не добьюсь, я:**
+> Настроить и запустить бота локально с полной функциональностью
 
 <!-- This is read by the bot during daily processing -->
 
@@ -17,9 +17,9 @@ updated: YYYY-MM-DD
 
 ## Week at a Glance
 
-**Week:** [X] of 52
-**Energy Level:** [High/Medium/Low]
-**Available Hours:** [X] hours focused work
+**Week:** 6 of 52
+**Energy Level:** High
+**Available Hours:** 30 hours focused work
 
 ---
 
@@ -27,53 +27,55 @@ updated: YYYY-MM-DD
 
 ### Must Do (Non-negotiable)
 
-- [ ] Task 1 — Связь: [[1-yearly-2025#Goal]]
-- [ ] Task 2
-- [ ] Task 3
+- [x] Настроить uv и зависимости
+- [x] Получить Deepgram API Key
+- [x] Запустить бота и протестировать голос
+- [x] Заполнить профиль в about.md
 
 ### Should Do (Important)
 
-- [ ] Task 1
-- [ ] Task 2
+- [x] Исправить ошибку /weekly команды
+- [ ] Заполнить daily notes
+- [ ] Проверить интеграцию с vault
 
 ### Could Do (If time permits)
 
-- [ ] Task 1
-- [ ] Task 2
+- [ ] Добавить Todoist интеграцию
+- [ ] Настроить автозапуск на сервере
 
 ---
 
 ## Daily Plan
 
-### Monday
+### Monday (Feb 9)
 
-- [ ] Task 1
-- [ ] Task 2
+- [x] Настроить uv
+- [x] Запустить бота
 
-### Tuesday
+### Tuesday (Feb 10)
 
-- [ ] Task 1
-- [ ] Task 2
+- [ ] Протестировать голосовые сообщения
+- [ ] Проверить распознавание
 
-### Wednesday
+### Wednesday (Feb 11)
 
-- [ ] Task 1
-- [ ] Task 2
+- [ ] Исправить ошибки
+- [ ] Документирование
 
-### Thursday
+### Thursday (Feb 12)
 
-- [ ] Task 1
-- [ ] Task 2
+- [ ] Интеграция с Claude Code
+- [ ] Тестирование команд
 
-### Friday
+### Friday (Feb 13)
 
-- [ ] Task 1
-- [ ] Task 2
+- [ ] Финальная проверка
+- [ ] Подготовка к продакшену
 
 ### Weekend
 
-- [ ] Rest / Family time
-- [ ] Optional task
+- [ ] Отдых
+- [ ] Планирование на следующую неделю
 
 ---
 
@@ -81,8 +83,8 @@ updated: YYYY-MM-DD
 
 | Day | Time | Event | Prep |
 |-----|------|-------|------|
-| Mon | | | |
-| Tue | | | |
+| Mon | 11:25 | Запуск бота | Хост и ключи готовы |
+| Wed | 14:00 | Тестирование | Записать голосовые |
 
 ---
 
@@ -90,9 +92,9 @@ updated: YYYY-MM-DD
 
 | Habit | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |-------|-----|-----|-----|-----|-----|-----|-----|
-| [Habit 1] | | | | | | | |
-| [Habit 2] | | | | | | | |
-| [Habit 3] | | | | | | | |
+| Утренняя рутина | ✓ | | | | | | |
+| Физическая активность | ✓ | | | | | | |
+| Работа над проектом | ✓ | | | | | | |
 
 ---
 
@@ -100,19 +102,22 @@ updated: YYYY-MM-DD
 
 ### What Worked
 
--
+- Быстрая настройка uv и виртуального окружения
+- Успешный запуск бота с Deepgram API
 
 ### What Didn't Work
 
--
+- Первый запуск был с конфликтом (несколько инстансов)
+- Ошибка 'NoneType' в /weekly команде из-за пустых плейсхолдеров
 
 ### Lessons Learned
 
--
+- Важно остановить старые процессы перед запуском нового бота
+- Файлы целей должны содержать реальные значения, не плейсхолдеры
 
 ### Next Week Focus
 
->
+> Интеграция Claude Code и полная функциональность обработки сообщений
 
 ---
 
@@ -120,8 +125,9 @@ updated: YYYY-MM-DD
 
 - [[2-monthly]] - Monthly priorities
 - [[1-yearly-2025]] - Yearly goals
-- Previous: [[3-weekly-YYYY-WXX]]
+- [[0-vision-3y]] - 3-year vision
 
 ---
 
-*Week Started: YYYY-MM-DD*
+*Week Started: 2026-02-09*
+*Last Updated: 2026-02-09*
